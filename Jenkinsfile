@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Initialize') {
             steps {
-                sh './helloworld.py'
+                sh 'chmod u+x ./helloworld.py'
             }
         }
     }
