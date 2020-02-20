@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh '''
                   chmod u+x ./helloworld.py
-                  ./helloworld.py
+                  python helloworld.py
                   '''
             }
         }
